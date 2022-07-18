@@ -1,0 +1,220 @@
+ACCOUNTS="A list of public keys for all the Stellar accounts associated with your asset."
+
+
+
+
+VERSION="2.0.0" 
+
+[DOCUMENTATION] 
+ORG_NAME="The Vigor Foundation" 
+ORG_DBA="The Vigor Foundation" 
+ORG_URL="vig-or.webflow.io" 
+ORG_LOGO="A URL to a company logo, which will show up next to your organization on exchanges. This image should be a square aspect ratio transparent PNG, ideally of size 128x128. If a logo isn't provided, the icon next to your organization will appear blank on many exchanges."
+ORG_DESCRIPTION="Vigor (VIG) is a Vigor Foundation project. Vigor leverages the power of blockchain technology to make remittances and P2P payments fast and secure." 
+ORG_PHYSICAL_ADDRESS="The physical address of your organization." 
+ORG_OFFICIAL_EMAIL= "The best business email for your organization." 
+ORG_SUPPORT_EMAIL= "The best email for support requests." 
+
+[[PRINCIPALS]] 
+name="Deborha Makinde" 
+email="dee.ade.mak@gmail.com" 
+github="Debvig" 
+
+[[CURRENCIES]]
+code="VIG" 
+issuer="The Stellar Public Key of the issuing account" 
+is_asset_anchored="true" 
+anchor_asset_type="fiat" 
+anchor_asset="USD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG" 
+issuer="The Stellar Public Key of the issuing account" 
+anchor_asset_type="fiat"
+anchor_asset="EUR" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG" 
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset= "JPY" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG" 
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="CAD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="HKD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="TWD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="AUD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="BRL" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="BRL" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="CHF" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="THB" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="MXN" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="SGD" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="IDR" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="AED"
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="AED"
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="fiat"
+anchor_asset="ILS" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="crypto" 
+anchor_asset="BTC" 
+display_decimals=7
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="crypto" 
+anchor_asset="BAT" 
+display_decimals=7
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="crypto" 
+anchor_asset="TERN" 
+display_decimals=7 
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="crypto" 
+anchor_asset="ETH" 
+display_decimals=7
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
+
+[[CURRENCIES]]
+code="VIG"
+issuer="The Stellar Public Key of the issuing account"
+anchor_asset_type="crypto" 
+anchor_asset="DAI" 
+display_decimals=2
+name="vigor supply" 
+desc="There will only be 10,000,000,000 VIG tokens in existence."
